@@ -458,6 +458,51 @@
             "innerHtml": ""
         },
         {
+            "id": "silex-id-1671093013043-1",
+            "tagName": "DIV",
+            "type": "container-element",
+            "alt": null,
+            "title": null,
+            "isSectionContent": false,
+            "visibility": {
+                "desktop": true,
+                "mobile": true
+            },
+            "style": {
+                "mobile": {},
+                "desktop": {
+                    "width": "342px",
+                    "height": "151px",
+                    "background-color": "rgba(176,176,176,1)",
+                    "position": "absolute",
+                    "top": "5.994316101074219px",
+                    "left": "9.005683898925781px"
+                }
+            },
+            "data": {
+                "component": null
+            },
+            "children": [
+                "silex-id-1671093301217-1"
+            ],
+            "pageNames": [],
+            "classList": [],
+            "attr": {},
+            "link": null,
+            "enableEdit": false,
+            "enableDrag": true,
+            "enableDrop": true,
+            "enableResize": {
+                "top": true,
+                "bottom": true,
+                "left": true,
+                "right": true
+            },
+            "selected": false,
+            "useMinHeight": true,
+            "innerHtml": ""
+        },
+        {
             "id": "silex-id-1671093301217-1",
             "tagName": "DIV",
             "type": "text-element",
