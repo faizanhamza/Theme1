@@ -14,7 +14,7 @@
     <script type="text/javascript" src="http://localhost:6805/static/2.12/front-end.js" data-silex-static=""></script>
     <link rel="stylesheet" href="http://localhost:6805/static/2.12/normalize.css" data-silex-static="">
     <link rel="stylesheet" href="http://localhost:6805/static/2.12/front-end.css" data-silex-static="">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" type="text/javascript"></script>
@@ -44,22 +44,27 @@
 
                 <div data-silex-type="text-element" class="editable-style text-element silex-id-1671095929346-0 text-editor-focus" data-silex-id="silex-id-1671095929346-0" style="" data-allow-silex-shortcuts="true">
                     <div class="silex-element-content normal wysihtml-editor">
-                        <p>Fazi v12</p>
+                        <div class="container">
+                            <h2>Vertical (basic) form</h2>
+                            <form action="/action_page.php">
+                              <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                              </div>
+                              <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                              </div>
+                              <div class="checkbox">
+                                <label><input type="checkbox" name="remember"> Remember me</label>
+                              </div>
+                              <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
+                          </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section data-silex-type="container-element" class="container-element editable-style silex-id-1474394621033-3 section-element prevent-resizable page-page-1 paged-element" data-silex-id="silex-id-1474394621033-3">
-        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1474394621032-2 container-element website-width selected" data-silex-id="silex-id-1474394621032-2">
-            <div data-silex-type="container-element" class="editable-style container-element silex-id-1671093013043-1" data-silex-id="silex-id-1671093013043-1" style="">
-
-                <div data-silex-type="text-element" class="editable-style text-element silex-id-1671095929346-0 text-editor-focus" data-silex-id="silex-id-1671095929346-0" style="" data-allow-silex-shortcuts="true">
-                    <div class="silex-element-content normal wysihtml-editor">
-                        <p>Fazi v12</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
 </body></html>
